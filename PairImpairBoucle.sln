@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PairImpairBoucle", "PairImpairBoucle.csproj", "{1A5CE0DD-31E5-45EA-B360-CD7952CF17DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A5CE0DD-31E5-45EA-B360-CD7952CF17DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5CE0DD-31E5-45EA-B360-CD7952CF17DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5CE0DD-31E5-45EA-B360-CD7952CF17DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5CE0DD-31E5-45EA-B360-CD7952CF17DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
