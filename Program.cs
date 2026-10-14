@@ -12,12 +12,11 @@ class Program
          *  On lui permet de le faire lorsqu'il entre "y". Dans les autres cas, on termine le programme
          */
         bool isRunning = true;
-        do
-        {
+        while (isRunning){
             Console.WriteLine("Entrez un nombre entier");
             int nbUser = Convert.ToInt32(Console.ReadLine());
             String EvenOdd;
-            if(nbUser % 2 == 0)
+            if (nbUser % 2 == 0)
             {
                 EvenOdd = "pair";
             }
@@ -31,7 +30,6 @@ class Program
                 isRunning = false;
             }
         }
-        while (isRunning);
 
 
     }
