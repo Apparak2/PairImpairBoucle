@@ -11,5 +11,28 @@ class Program
          * Demandez à l'utilisateur s'il veut proposer un autre nombre
          *  On lui permet de le faire lorsqu'il entre "y". Dans les autres cas, on termine le programme
          */
+        bool isRunning = true;
+        do
+        {
+            Console.WriteLine("Entrez un nombre entier");
+            int nbUser = Convert.ToInt32(Console.ReadLine());
+            String EvenOdd;
+            if(nbUser%2 == 0)
+            {
+                EvenOdd = "pair";
+            }
+            else
+            {
+                EvenOdd = "impair";
+            }
+            Console.WriteLine($"{nbUser} est {EvenOdd}\nVoulez-vous écrire un autre nombre ?");
+            if (Console.ReadLine() != "y")
+            {
+                isRunning = false;
+            }
+        }
+        while (isRunning);
+
+
     }
 }
