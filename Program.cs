@@ -17,7 +17,7 @@ class Program
             Console.WriteLine("Entrez un nombre entier");
             int nbUser = Convert.ToInt32(Console.ReadLine());
             String EvenOdd;
-            if(nbUser%2 == 0)
+            if(nbUser % 2 == 0)
             {
                 EvenOdd = "pair";
             }
@@ -25,7 +25,7 @@ class Program
             {
                 EvenOdd = "impair";
             }
-            Console.WriteLine($"{nbUser} est {EvenOdd}\nVoulez-vous écrire un autre nombre ?");
+            Console.WriteLine($"{nbUser} est {EvenOdd}\nVoulez-vous écrire un autre nombre ? (tapez \"y\" pour en écrire un autre)");
             if (Console.ReadLine() != "y")
             {
                 isRunning = false;
